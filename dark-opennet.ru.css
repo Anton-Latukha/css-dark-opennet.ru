@@ -1,0 +1,7 @@
+@-moz-document domain("opennet.ru") {
+  html { background-color: black; }
+  body { filter: invert(100%); }
+  img  { filter: invert(100%); }
+  img [src*="opennet2"]{ filter: none; }
+  iframe { filter: none; }
+}
